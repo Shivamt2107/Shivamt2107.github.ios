@@ -5,7 +5,7 @@ import { HiOutlineMoon } from "react-icons/hi";
 import { CgSun } from "react-icons/cg";
 import { useState, useContext } from "react";
 import { ThemeContext } from "../../App";
-import Shivam_Resume from "./Shivam_Resume.pdf"
+import Shivam_Gote_Resume from "./Shivam_Gote_Resume.pdf"
 
 function Navbar() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -50,12 +50,12 @@ function Navbar() {
           </div>
 
           <a
-           
-            href={Shivam_Resume}
+
+            href={Shivam_Gote_Resume}
             target="_blank"
             download
           >
-            <button onClick={()=>window.open(Shivam_Resume)} className={styles.nav_resume_btn}>
+            <button onClick={() => window.open(Shivam_Gote_Resume)} className={styles.nav_resume_btn}>
               Resume
             </button>
           </a>
@@ -88,11 +88,14 @@ function Navbar() {
             Contact
           </a>
           <a
-            className={styles.nav_link}
-            href={process.env.PUBLIC_URL + "/profile/ShivamResume.pdf"}
+
+            href={Shivam_Gote_Resume}
             target="_blank"
+            download
           >
-            Resume
+            <button onClick={() => window.open(Shivam_Gote_Resume)} className={styles.nav_resume_btn}>
+              Resume
+            </button>
           </a>
         </div>
         <div className={styles.nav_right}>

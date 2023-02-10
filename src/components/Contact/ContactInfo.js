@@ -1,5 +1,5 @@
 import React from "react";
-import { CiMapPin } from "react-icons/ci";
+import { CiMapPin, CiPhone } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 import styles from "./ContactInfo.module.css";
 
@@ -24,6 +24,19 @@ function ContactInfo() {
           <p className={styles["body"]}>shivam.gote2107@gmail.com</p>
         </div>
       </div>
+
+
+      <div className={styles["contact-info-item"]}>
+      <div className={styles["icon"]}>
+        <CiPhone />
+      </div>
+      <div className={styles["content"]}>
+        <h4 className={styles["title"]}>Contact No.</h4>
+        <p className={styles["body"]}>+91 9921363500</p>
+      </div>
+    </div>
+
+
     </div>
   );
 }

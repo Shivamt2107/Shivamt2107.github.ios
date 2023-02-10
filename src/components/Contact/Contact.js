@@ -3,6 +3,7 @@ import ContactForm from "./ContactForm";
 import ContactInfo from "./ContactInfo";
 import styles from "./Contact.module.css";
 
+
 function Contact() {
   return (
     <section className={styles.contact_section} id="contact">

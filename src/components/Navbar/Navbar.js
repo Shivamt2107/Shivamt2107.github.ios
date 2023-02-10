@@ -57,6 +57,8 @@ function Navbar() {
           </a>
         </div>
       </div>
+
+      
       <div className={styles.mobileMenu}>
         {/* Hamburger menu */}
         <div className={styles.nav_left}>

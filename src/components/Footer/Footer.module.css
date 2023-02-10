@@ -23,3 +23,31 @@
     padding: 60px 0px;
   }
 }
+
+
+@media only screen and (max-width: 425px) {
+
+
+
+  .footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: var(--light-2);
+    color: var(--cinder);
+    /* border: 1px solid black; */
+  }
+  
+  .socialIcon:not(:last-child) {
+    margin-right: 32px;
+  }
+  
+  .socialIcon {
+    font-size: 23px;
+    cursor: pointer;
+  }
+  
+  .socialIcon:hover {
+    opacity: 0.7;
+  }
+
+}

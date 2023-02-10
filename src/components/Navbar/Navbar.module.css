@@ -99,6 +99,7 @@
     padding: 0;
     width: 100%;
     justify-content: space-between;
+    /* border: 1px solid black; */
   }
 
   .desktopMenu {
@@ -108,12 +109,13 @@
   .nav_right {
     display: flex;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 20px;
+    /* border: 1px solid black; */
   }
 
   .hamburgerMenu {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     color: var(--cinder);
   }
@@ -126,19 +128,111 @@
     position: absolute;
     width: -webkit-fill-available;
     background: var(--white);
-    /* opacity: 0;
-    transition: opacity 0.75s; */
+    /* opacity: 0;  */
+    /* transition: opacity 0.75s;  */
     padding: 10px 0px;
     background: var(--midnight-express);
+    /* border: 1px solid black; */
   }
 
   .active {
     display: flex;
-    /* opacity: 1; */
+    opacity: 1;
+    /* border: 1px solid black; */
   }
 
   .navMobile .nav_link {
     margin-left: 0 !important;
     padding: 10px;
+    /* border: 1px solid black; */
+  }
+
+  .navMobile .nav_link:hover {
+    cursor: pointer;
+  }
+
+  .nav_left > a {
+    color: var(--cinder);
+    font-weight: bold;
+    font-size: 23px;
+    /* border: 1px solid black; */
+    margin-left: -15px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+  .nav_container {
+    height: 50px;
+    padding: 0;
+    /* border: 1px solid black; */
+  }
+
+  .mobileMenu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+  .nav_right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .hamburgerMenu {
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--cinder);
+  }
+
+  .navMobile {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    top: 50px;
+    position: absolute;
+    width: -webkit-fill-available;
+    background: var(--white);
+    /* opacity: 0;  */
+    /* transition: opacity 0.75s;  */
+    padding: 10px 0px;
+    background: var(--midnight-express);
+    /* border: 1px solid black; */
+  }
+
+  .active {
+    display: flex;
+    opacity: 1;
+    /* border: 1px solid black; */
+  }
+
+  .navMobile .nav_link {
+    margin-left: 0 !important;
+    padding: 10px;
+    /* border: 1px solid black; */
+  }
+
+  .navMobile .nav_link:hover {
+    cursor: pointer;
+  }
+
+  .nav_left > a {
+    color: var(--cinder);
+    font-weight: bold;
+    font-size: 23px;
+    /* border: 1px solid black; */
+    margin-left: -15px;
   }
 }

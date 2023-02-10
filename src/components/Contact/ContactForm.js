@@ -11,6 +11,7 @@ import AlertTitle from '@mui/material/AlertTitle';
 
 
 
+
 const Result = () => {
   return <Alert  variant="outlined" severity="success" marginTop="100px" sx={{ width: '100%' }}>
   Your response has been submitted...!

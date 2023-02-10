@@ -1,0 +1,38 @@
+.contact-info-item {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  background: var(--purple-light-2);
+  border-radius: 16px;
+  margin-right: 24px;
+  color: var(--purple);
+  font-size: 30px;
+}
+
+.content {
+  text-align: initial;
+  color: var(--cinder);
+}
+
+.title {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 4px;
+}
+
+.body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--cinder-light);
+}

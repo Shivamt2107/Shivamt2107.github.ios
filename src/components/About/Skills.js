@@ -8,7 +8,8 @@ const Skills = () => {
       {/* <h1>My current skills</h1> */}
       <div className={styles["skills_container"]}>
         <div className={styles["skills_wrapper"]}>
-          <div className={styles.skill}>HTML</div>
+
+          {/* <div className={styles.skill}>HTML</div>
           <div className={styles.skill}>CSS</div>
           <div className={styles.skill}>JavaScript</div>
           <div className={styles.skill}>JSON</div>
@@ -26,8 +27,8 @@ const Skills = () => {
           <div className={styles.skill}>Tailwind</div>
           <div className={styles.skill}>Git</div>
           <div className={styles.skill}>Github</div>
-          <div className={styles.skill}>Data Structures and Algorithm</div>
-
+          <div className={styles.skill}>Data Structures and Algorithm</div> */}
+            <img src="https://pratikms.com/static/88a0da04c585fe803eb0d30074782fea/5fe40/greeting.webp" alt="about" className={styles.aboutImg}/>
         </div>
       </div>
     </div>

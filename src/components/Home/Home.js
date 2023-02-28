@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
+import fw19_1173_shivam_Gote_Resume from "./fw19_1173_shivam_Gote_Resume.pdf"
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           />
         </div>
       </div>
+
       <div className={styles.home_right}>
         <p className={styles.greet}>Hi, my name is</p>
         <h1 className={styles.heading_1}>
@@ -23,7 +25,7 @@ const Home = () => {
         </h1>
         {/* <h1 className={styles.heading_2}>I build things for the web.</h1> */}
         <p className={styles.desc}>
-        Creative Full-Stack Web Devloper with building websites using JavaScript and React.
+          Aspiring Full-Stack Web Devloper with building websites using JavaScript and React.
         </p>
         <div className={styles.social_icons}>
           <a href="https://github.com/Shivamt2107" target="_blank">
@@ -38,6 +40,30 @@ const Home = () => {
           <a href="https://www.instagram.com/" target="_blank">
             <FiInstagram />
           </a>
+        </div>
+
+
+
+
+        <div className={styles.lcr_buttonContainer}>
+          <a
+            href={fw19_1173_shivam_Gote_Resume}
+            target="_blank"
+            download
+          >
+            <button onClick={() => window.open(`https://drive.google.com/file/d/1M6zXnROFReUKReTYZfszmGWUAB-XSgic/view?usp=share_link`)} className={styles.resumeBtn}>
+              Download CV
+            </button>
+          </a>
+
+
+          <a href="#contact">
+
+            <button className={styles.contactBtn}>
+              Contact
+            </button>
+          </a>
+
         </div>
       </div>
     </section>

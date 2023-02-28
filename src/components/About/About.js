@@ -30,7 +30,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.right}>
-          <h3>My Skills</h3>
+          {/* <h3>My Skills</h3> */}
           <Skills />
         </div>
       </div>

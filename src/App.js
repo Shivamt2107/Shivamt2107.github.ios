@@ -9,7 +9,9 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import { createContext } from "react";
 import GitHubStats from "./components/Github/GitHubStats";
-
+import Testimonials from "./components/Testimonials/Testimonials";
+import MainSkill from "./components/MainSkill/MainSkill";
+import TechSkill from "./components/TeckSkills/TechSkill";
 
 export const ThemeContext = createContext(null);
 
@@ -39,9 +41,12 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <TechSkill  />
+        {/* <MainSkill/> */}
         <Resume />
         <Projects />
         <GitHubStats/>
+        {/* <Testimonials/> */}
         <Contact />
         <Footer />
       </div>

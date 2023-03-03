@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a65c62f5.css",
-    "main.js": "/static/js/main.e938cd7a.js",
+    "main.js": "/static/js/main.517ec4fa.js",
     "static/js/787.7b6bb531.chunk.js": "/static/js/787.7b6bb531.chunk.js",
     "static/media/fw19_1173_shivam_Gote_Resume.pdf": "/static/media/fw19_1173_shivam_Gote_Resume.86be320631e528e033fc.pdf",
     "static/media/girl2.svg": "/static/media/girl2.c1222fab0c8fd0a85c27c013f62ecd28.svg",
@@ -90,11 +90,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.a65c62f5.css.map": "/static/css/main.a65c62f5.css.map",
-    "main.e938cd7a.js.map": "/static/js/main.e938cd7a.js.map",
+    "main.517ec4fa.js.map": "/static/js/main.517ec4fa.js.map",
     "787.7b6bb531.chunk.js.map": "/static/js/787.7b6bb531.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a65c62f5.css",
-    "static/js/main.e938cd7a.js"
+    "static/js/main.517ec4fa.js"
   ]
 }

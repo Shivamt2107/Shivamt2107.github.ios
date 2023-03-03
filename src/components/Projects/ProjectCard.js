@@ -103,30 +103,30 @@ const ProjectCard = () => {
       dec: "It is Simple Movie Search app using a IMDB Api its the world's most popular and search api (imdb) source for movie, TV and celebrity content. Search ratings and reviews for the newest movie and TV shows.",
       code: "https://github.com/shivamt2107"
     },
-    {
-      img: "/projects/weather.png",
-      name: "Weather",
-      tech: ['HTML', 'CSS', 'javaScript', 'Api'],
-      link: "https://boring-bassi-d831e4.netlify.app/",
-      dec: "A Simple Weather application where you can search for city to know there weather and On an everyday basis, many people use weather forecasts to determine what to wear on a given day.",
-      code: "https://github.com/shivamt2107"
-    },
-    {
-      img: "/projects/hospital.png",
-      name: "Hospital Employee App",
-      tech: ["javaScript", "HTML", "CSS"],
-      link: "https://reliable-profiterole-e60380.netlify.app/",
-      dec: "It is Simple Hospital Employee Data App",
-      code: "https://github.com/masai-course/shivam_Fw19_1173/tree/master/unit-2/sprint-3/day-3/assignments/PT-WEB-05%20C2_905871%20(3)"
-    },
-    {
-      img: "/projects/todo.png",
-      name: "TODO APP",
-      tech: ["javaScript", "HTML", "CSS"],
-      link: "https://vocal-kleicha-b7c1ce.netlify.app/",
-      dec: "It is Simple-TODO-APP",
-      code: "https://github.com/shivamt2107"
-    },
+    // {
+    //   img: "/projects/weather.png",
+    //   name: "Weather",
+    //   tech: ['HTML', 'CSS', 'javaScript', 'Api'],
+    //   link: "https://boring-bassi-d831e4.netlify.app/",
+    //   dec: "A Simple Weather application where you can search for city to know there weather and On an everyday basis, many people use weather forecasts to determine what to wear on a given day.",
+    //   code: "https://github.com/shivamt2107"
+    // },
+    // {
+    //   img: "/projects/hospital.png",
+    //   name: "Hospital Employee App",
+    //   tech: ["javaScript", "HTML", "CSS"],
+    //   link: "https://reliable-profiterole-e60380.netlify.app/",
+    //   dec: "It is Simple Hospital Employee Data App",
+    //   code: "https://github.com/masai-course/shivam_Fw19_1173/tree/master/unit-2/sprint-3/day-3/assignments/PT-WEB-05%20C2_905871%20(3)"
+    // },
+    // {
+    //   img: "/projects/todo.png",
+    //   name: "TODO APP",
+    //   tech: ["javaScript", "HTML", "CSS"],
+    //   link: "https://vocal-kleicha-b7c1ce.netlify.app/",
+    //   dec: "It is Simple-TODO-APP",
+    //   code: "https://github.com/shivamt2107"
+    // },
 
 
   ];

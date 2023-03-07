@@ -72,6 +72,14 @@ const ProjectCard = () => {
       code: "https://github.com/sumitss085/FashionHub_store"
     },
     {
+      img: "/projects/LensKart.png",
+      name: "LensKart-Clone",
+      tech: ["React", "Redux", "Axios", "JavaScript XML", "Mango", "CSS", "Material-UI", "Tailwind"],
+      link: "https://fascinating-cajeta-e3c16d.netlify.app/",
+      dec: "LensKart is leading e-commerce company that online optical store packed classic and trendy eyeglasses. ",
+      code: "https://github.com/Shivamt2107/LENSKART-CLONE"
+    },
+    {
       img: "/projects/myfitness.png",
       name: "MyFitnessPal-Clone",
       tech: ["React", "JavaScript XML", "HTML", "CSS", 'Chakra-UI'],
@@ -103,6 +111,7 @@ const ProjectCard = () => {
       dec: "It is Simple Movie Search app using a IMDB Api its the world's most popular and search api (imdb) source for movie, TV and celebrity content. Search ratings and reviews for the newest movie and TV shows.",
       code: "https://github.com/shivamt2107"
     },
+    
     // {
     //   img: "/projects/weather.png",
     //   name: "Weather",

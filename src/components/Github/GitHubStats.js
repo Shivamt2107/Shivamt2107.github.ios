@@ -23,15 +23,15 @@ const GitHubStats = () => {
 
       </div>
 
-   
-      
-   
 
 
 
-      <div className={styles.stats_calender} style={{ border: "0px solid black", padding: "30px",marginTop:"30px" }}>
+
+
+
+      <div className={styles.stats_calender} style={{ border: "0px solid black", padding: "30px", marginTop: "30px" }}>
         <GitHubCalendar
-          style={{ border: "0px solid black", margin: "auto", color:"var(--cinder)" }}
+          style={{ border: "0px solid black", margin: "auto", color: "var(--cinder)" }}
           blockSize={25}
           fontSize={19}
           blockMargin={5}
@@ -46,25 +46,25 @@ const GitHubStats = () => {
 
 
       <div className={styles.githubInfo}>
-          <div>
-            <div className={styles.texts} ><FaCode size="30px" /> <h1 >1500+ Hours Practical Coding</h1></div>
-            <div className={styles.texts} ><RiLightbulbFlashLine size="30px" /> <h1 >500+ Hours Data Structures & Algorithms</h1></div>
-            <div className={styles.texts} alignItems="center"><BiUserVoice size="30px" /> <h1 >100+ Hours Soft Skill Development</h1></div>
+        <div>
+          <div className={styles.texts} ><FaCode size="30px" /> <h1 >1500+ Hours Practical Coding</h1></div>
+          <div className={styles.texts} ><RiLightbulbFlashLine size="30px" /> <h1 >500+ Hours Data Structures & Algorithms</h1></div>
+          <div className={styles.texts} alignItems="center"><BiUserVoice size="30px" /> <h1 >100+ Hours Soft Skill Development</h1></div>
 
-          </div>
-
-
-          <div>
-
-            <div className={styles.texts} ><AiOutlineFundProjectionScreen size="30px" /> <h1 >9+ Projects</h1></div>
-            <div className={styles.texts}  ><VscGraph size="30px" /> <h1 >60+ Mini Projects</h1></div>
-            <div className={styles.texts} ><FaGit size="30px" /> <h1 >400+ Git Commits</h1></div>
+        </div>
 
 
-          </div>
+        <div>
+
+          <div className={styles.texts} ><AiOutlineFundProjectionScreen size="30px" /> <h1 >9+ Projects</h1></div>
+          <div className={styles.texts}  ><VscGraph size="30px" /> <h1 >60+ Mini Projects</h1></div>
+          <div className={styles.texts} ><FaGit size="30px" /> <h1 >400+ Git Commits</h1></div>
 
 
         </div>
+
+
+      </div>
 
 
 
@@ -75,7 +75,7 @@ const GitHubStats = () => {
       </div> */}
 
 
-{/*(https://github-readme-activity-graph.cyclic.app/graph?username=Shivamt2107&bg_color=000000&color=c8b1fb&line=7f2dfb&point=b3b3b3&area=true&hide_border=true)] */}
+      {/*(https://github-readme-activity-graph.cyclic.app/graph?username=Shivamt2107&bg_color=000000&color=c8b1fb&line=7f2dfb&point=b3b3b3&area=true&hide_border=true)] */}
 
 
 

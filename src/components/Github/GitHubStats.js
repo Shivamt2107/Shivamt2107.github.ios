@@ -70,15 +70,15 @@ const GitHubStats = () => {
         <img
           className="box"
           align="center"
-          src="https://github-readme-stats.vercel.app/api?username=kali2498&theme=vision-friendly-dark&show_icons=true&locale=en"
-          alt="kali2498"
+          src="https://github-readme-stats.vercel.app/api?username=Shivamt2107&theme=vision-friendly-dark&show_icons=true&locale=en"
+          alt="Shivamt2107"
         />
 
         <img
           className="box"
           align="center"
-          src="https://github-readme-streak-stats.herokuapp.com/?user=kali2498&theme=vision-friendly-dark"
-          alt="kali2498"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Shivamt2107&theme=vision-friendly-dark"
+          alt="Shivamt2107"
         />
       </div>
 

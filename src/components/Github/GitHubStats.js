@@ -66,7 +66,7 @@ const GitHubStats = () => {
 
       </div>
 
-      <div className="GithuAkash_Stat" >
+      <div className="GitShivam_Stat" >
         <img
           className="box"
           align="center"

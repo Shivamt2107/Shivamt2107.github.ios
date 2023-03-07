@@ -95,24 +95,24 @@
   transition: transform 0.5s linear;
 }
 
-.texts h1{
+.texts h1 {
   margin-left: 9px;
   font-size: 23px;
 }
 
 .texts:hover {
-  color:var(--purple);
+  color: var(--purple);
   transform: scale(1.05);
   transition: 0.4s ease-in;
 }
 
-.githubCalender{
-  margin-top:50px;
+.githubCalender {
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
 
-.githubCalender>img{
+.githubCalender>img {
   /* border: 2px solid teal; */
   height: 380px;
   width: 100%;
@@ -121,6 +121,23 @@
 
 
 
+.GitShivam_Stat {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+
+.box {
+  transition: transform 0.5s linear;
+}
+
+.box:hover {
+  /* color:  #dc143c; */
+  transform: scale(1.1);
+
+  transition: 0.5s ease-in;
+}
 
 
 
@@ -147,15 +164,15 @@
     /* border: 1px solid black; */
     border-bottom: 2px solid var(--light-2);
   }
-  
+
 
   .heading {
     padding: 40px 0px 20px;
     /* border: 1px solid black; */
   }
-  
- 
-  
+
+
+
   .Github_section .title {
     font-style: normal;
     font-weight: 700;
@@ -165,8 +182,8 @@
     /* border: 1px solid black; */
     word-spacing: 10px
   }
-  
-  
+
+
   .stats_container {
     /* border: 1px solid black; */
     display: flex;
@@ -174,9 +191,9 @@
     flex-direction: column;
     width: 100%;
     flex-wrap: wrap;
-  
+
   }
-  
+
   .stats_container>img {
     max-width: 100%;
     width: 100%;
@@ -184,9 +201,9 @@
     /* border: 1px solid black; */
     margin: 0px auto;
   }
-  
-  
-  
+
+
+
   .githubInfo {
     display: flex;
     justify-content: space-evenly;
@@ -196,9 +213,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  
-  
-  
+
+
+
   .texts {
     color: var(--cinder);
     display: flex;
@@ -207,33 +224,33 @@
     transition: transform 0.5s linear;
     /* border: 1px solid black; */
   }
-  
-  .texts h1{
+
+  .texts h1 {
     margin-left: 5px;
     font-size: 18px;
     /* border: 1px solid black; */
   }
-  
+
   .texts:hover {
-    color:var(--purple);
+    color: var(--purple);
     transform: scale(1.05);
     transition: 0.4s ease-in;
   }
-  
-  .githubCalender{
-    margin-top:50px;
+
+  .githubCalender {
+    margin-top: 50px;
     margin-bottom: 10px;
   }
-  
-  
-  .githubCalender>img{
+
+
+  .githubCalender>img {
     /* border: 2px solid teal; */
     height: 380px;
     width: 100%;
   }
-  
-  
-  
+
+
+
 
 }
 
@@ -242,5 +259,5 @@
     display: none;
   }
 
- 
+
 }
